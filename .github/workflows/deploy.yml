@@ -71,4 +71,4 @@ jobs:
             --cluster ${{ env.ECS_CLUSTER }} \
             --task-definition ${{ env.ECS_TASK_DEFINITION }} \
             --launch-type FARGATE \
-            --network-configuration "awsvpcConfiguration={subnets=[subnet-0f5e0a9936c3c693d],securityGroups=[sg-0701f2492a58aa5f2],assignPublicIp=ENABLED}"
+            --network-configuration "awsvpcConfiguration={subnets=[subnet-0836184892c87d136],securityGroups=[sg-0701f2492a58aa5f2],assignPublicIp=ENABLED}"
